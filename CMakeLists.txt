@@ -3,3 +3,5 @@ project (CURL.cget C CXX)
 
 set(CGET_USE_ONLY_CGET_PACKAGES On)
 include(package.cmake)
+
+install(CODE "message('CURL and dependencies were installed.')")
